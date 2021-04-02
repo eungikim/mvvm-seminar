@@ -115,7 +115,7 @@ public class RepositoryAdapter extends RecyclerView.Adapter<RepositoryAdapter.Re
         return items.size();
     }
 
-    interface OnRepositoryItemClickListener {
+    public interface OnRepositoryItemClickListener {
         /**
          * 리포지토리의 아이템이 탭되면 호출된다
          */
